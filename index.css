@@ -1,5 +1,9 @@
+@import "./styles/varaible.css";
+@import "./styles/header.css";
+
 body {
   font-family: "Montserrat Alternates", sans-serif;
+  margin: 0;
 }
 .conteiner {
   width: 100%;
@@ -11,28 +15,4 @@ body {
 
   display: flex;
   align-items: center;
-}
-header nav ul {
-  padding: 0;
-  margin-left: 73px;
-  list-style: none;
-  display: flex;
-  align-items: center;
-}
-header nav ul li {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 22px;
-}
-header nav ul li:not(:last-child) {
-  margin-right: 37px;
-}
-header .lang {
-  margin-left: 57px;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 18px;
-  line-height: 22px;
-  color: grey;
 }
