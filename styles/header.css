@@ -59,6 +59,7 @@ header .tell a {
   font-weight: bold;
   font-size: 18px;
   line-height: 22px;
+  text-decoration: none;
 
   color: var(--black);
 }
@@ -66,4 +67,11 @@ header {
   background: #ffffff;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
   padding: 20px;
+}
+header .conteiner {
+  display: flex;
+  align-items: center;
+}
+header main .h1 span {
+  color: var(black);
 }
