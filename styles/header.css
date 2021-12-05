@@ -72,6 +72,6 @@ header .conteiner {
   display: flex;
   align-items: center;
 }
-header main .h1 span {
-  color: var(black);
+header nav ul li:hover {
+  color: #ffffff;
 }
