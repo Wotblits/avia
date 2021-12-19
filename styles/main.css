@@ -46,3 +46,36 @@ main .delevery .delevery-item.mid {
 main .delevery .delevery-item.sm {
   width: calc(32.8% - 80px);
 }
+
+main .qestions {
+  margin-top: 78px;
+  background: #fff8e9;
+}
+main .qestions_wraper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main .qestions_wraper img {
+  width: calc(50% - 53px);
+}
+main .qestions_wraper form {
+  text-align: center;
+  width: 50%;
+}
+main .qestions_wraper form h2 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 35px;
+  line-height: 43px;
+  text-align: center;
+
+  color: #3e3b3b;
+}
+main .qestions form p {
+  margin-top: 0;
+}
+main .qestions_wraper form p .bold {
+  font-weight: bold;
+  margin-bottom: 3px;
+}
